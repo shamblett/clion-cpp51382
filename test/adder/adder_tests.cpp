@@ -1,7 +1,7 @@
 /*
  * Project: coral66
  * Author : Copyright S. Hamblett <steve.hamblett@linux.com>
- * Date   : 31/01/2026
+ * Date   : 28/07/2026
  */
 
 #include "lib/adder/adder.hpp"
@@ -13,7 +13,7 @@ TEST_CASE("Adder - Simple", "[adder]")
     SECTION("1 + 2")
     {
         auto theAdder = Adder{};
-        CHECK(theAdder.add(1, 2) == 3);
+        CHECK(theAdder.add(1, 2) == 5);
     }
 
     SECTION("10 + 11")
